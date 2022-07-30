@@ -8,7 +8,7 @@ function copyFile() {
     enforce: "post",
     async writeBundle() {
       await fs.copy(
-        path.resolve(__dirname, "static"),
+        path.resolve(__dirname, "src/static"),
         path.join(
           __dirname,
           "unpackage/dist",
@@ -24,7 +24,7 @@ function copyFile() {
  * @type {import('vite').UserConfig}
  */
 export default defineConfig({
-  base: "/",
+  base: "./",
   server: {
     port: 5173,
   },

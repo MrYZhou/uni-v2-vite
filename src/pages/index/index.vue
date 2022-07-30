@@ -3,9 +3,7 @@
 		<view class="text-area">
 
 			<!-- 下拉组件 -->
-			<mescroll-body ref="mescrollRef" @init="mescrollInit" @down="downCallback" @up="upCallback">
-				<good-list :list="goods"></good-list>
-			</mescroll-body>
+		 <pageList ref="list" :data="data"></pageList>
 
 
 		</view>
@@ -13,9 +11,12 @@
 </template>
 
 <script>
+import pageList from "@/pages/index/pageList.vue";
 	export default {
+		components:{pageList},
 		data() {
 			return {
+				data:[],
 				title: 'Hello',
 				url: ''
 			}

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});var e=require("./common/vendor.js");const n={onLaunch:function(){console.log("App Launch")},onShow:function(){console.log("App Show")},onHide:function(){console.log("App Hide")}};var p=e._export_sfc(n,[["__file","C:/Users/lg/Desktop/uni-v2-vite/src/App.vue"]]);function o(){return{app:e.createSSRApp(p)}}o().app.mount("#app");exports.createApp=o;
+//# sourceMappingURL=app.js.map

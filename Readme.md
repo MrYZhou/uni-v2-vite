@@ -1,1 +1,5 @@
-## uniapp试验产品
+## uniapp实验性产品
+
+请使用vscode开发小程序
+
+
